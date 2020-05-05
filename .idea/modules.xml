@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EnumAnnotation/EnumAnnotation.iml" filepath="$PROJECT_DIR$/EnumAnnotation/EnumAnnotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOStream/IOStream.iml" filepath="$PROJECT_DIR$/IOStream/IOStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDK8.0/JDK8.0.iml" filepath="$PROJECT_DIR$/JDK8.0/JDK8.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atguigu.iml" filepath="$PROJECT_DIR$/atguigu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collectionmap/collectionmap.iml" filepath="$PROJECT_DIR$/collectionmap/collectionmap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonclasses/commonclasses.iml" filepath="$PROJECT_DIR$/commonclasses/commonclasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam/exam.iml" filepath="$PROJECT_DIR$/exam/exam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/genetic/genetic.iml" filepath="$PROJECT_DIR$/genetic/genetic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myproject03/myproject03.iml" filepath="$PROJECT_DIR$/myproject03/myproject03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reflection/reflection.iml" filepath="$PROJECT_DIR$/reflection/reflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/senior/senior.iml" filepath="$PROJECT_DIR$/senior/senior.iml" />
+    </modules>
+  </component>
+</project>
