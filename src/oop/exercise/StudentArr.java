@@ -19,6 +19,9 @@ public class StudentArr {
             System.out.println(student[i].score);
             System.out.println("hello World");
             System.out.println(student[i].toString());
+            System.out.println(1);
+            
+
 
         }
     }
