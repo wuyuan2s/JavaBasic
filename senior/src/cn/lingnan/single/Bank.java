@@ -24,7 +24,9 @@ public class Bank {
         //方式二：效率较高，后来的线程不再等待
         if (instance == null){
             synchronized (Bank.class) {
-                instance = new Bank();
+                if (instance == null) {
+                    instance = new Bank();
+                }
             }
         }
         return instance;

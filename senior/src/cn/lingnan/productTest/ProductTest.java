@@ -77,7 +77,7 @@ class Producer extends Thread{
         System.out.println(getName() + ":开始生产产品");
         while(true){
             try {
-                Thread.sleep(20);
+                Thread.sleep(50);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -98,7 +98,7 @@ class Consumer extends Thread {
         System.out.println(getName() + ":开始消费产品");
         while(true){
             try {
-                Thread.sleep(50);
+                Thread.sleep(20);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

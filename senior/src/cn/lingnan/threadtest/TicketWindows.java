@@ -25,9 +25,11 @@ class Windows extends Thread {
     public void run() {
         while (true){
         if (ticket > 0) {
-            System.out.println("第：" + ticket + " 张票");
+            System.out.println("第" + ticket + " 张票");
             ticket--;
-            }
+            } else {
+            break;
+        }
         }
     }
 }

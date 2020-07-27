@@ -20,7 +20,7 @@ public class StudentArr {
             System.out.println("hello World");
             System.out.println(student[i].toString());
             System.out.println(1);
-            
+
 
 
         }

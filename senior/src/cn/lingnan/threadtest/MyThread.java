@@ -18,6 +18,8 @@ public class MyThread {
 //      4. 通过此对象调用start()：①启动当前线程 ② 调用当前线程的run()
         threadOne.start();
 
+//        如果直接threadOne.run();则还是在main线程中运行，不是多线程
+
 //     下面的for循环在main线程（主线程）下运行，上面的start方法是另一个线程同步运行
         for (int i = 0; i < 100; i++) {
             if(i % 2 == 0){
@@ -26,7 +28,7 @@ public class MyThread {
             }
         }
 //        问题二：如果再启动一个线程，必须重新创建一个Thread子类的对象，调用此对象的start().
-//          threadOne.start();//错误的
+//          threadOne.start();//错误的；一个线程的start只能调用一次，原码中threadStatus会改变（0）
             ThreadOne threadOne2 = new ThreadOne();//正确的
              threadOne2.start();
     }
